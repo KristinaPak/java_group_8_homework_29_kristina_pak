@@ -55,7 +55,7 @@ final class Cat {
     }
 
     public static int byNameAndAge(Cat c1, Cat c2) {
-        Integer.compare(c1.getAge(),c2.getAge());
+        Integer.compare(c1.getAge(), c2.getAge());
         return c1.name.compareTo(c2.name);
     }
 
@@ -64,7 +64,7 @@ final class Cat {
     }
 
     public static boolean byLength(Cat cat) {
-        return cat.name.length() ==5;
+        return cat.name.length() == 5;
     }
 
 }
