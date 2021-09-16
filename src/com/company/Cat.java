@@ -54,9 +54,9 @@ final class Cat {
         return c1.breed.compareTo(c2.breed);
     }
 
-    public static int byNameAndAge(Cat c1, Cat c2) {
-        Integer.compare(c1.getAge(), c2.getAge());
-        return c1.name.compareTo(c2.name);
+    public static int byNameAndAge(Cat cat1, Cat cat2) {
+        Integer.compare(cat1.getAge(), cat2.getAge());
+        return cat1.name.compareTo(cat2.name);
     }
 
     public static boolean byColor(Cat cat) {
