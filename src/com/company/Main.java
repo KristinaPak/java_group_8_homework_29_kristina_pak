@@ -15,8 +15,9 @@ public class Main {
         System.out.println("Сортировка 3: убрать всех котов серго цвета");
         cats.removeIf(Cat::byColor);
         Printer.print(cats);
-        System.out.println("Сортировка 4: убрать котов , длина имени которых равна 5");
+        System.out.println("Сортировка 4: убрать котов, длина имени которых равна 5");
         cats.removeIf(Cat::byLength);
         Printer.print(cats);
+
     }
 }
