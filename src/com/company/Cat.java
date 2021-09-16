@@ -66,4 +66,5 @@ final class Cat {
     public static boolean byLength(Cat cat) {
         return cat.name.length() == 5;
     }
+
 }
